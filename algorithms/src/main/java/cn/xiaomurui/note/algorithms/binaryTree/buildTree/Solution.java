@@ -26,9 +26,21 @@ class TreeNode {
 }
 
 class Solution {
-    public TreeNode buildTree(int[] inorder, int[] postorder) {
-        return null;
+    /** 后序和中序
+     * public TreeNode buildTree(int[] inorder, int[] postorder) {
+     * return traversal(inorder, postorder);
+     * }
+     */
 
+    /**
+     * 前序和中序
+     *
+     * @param preorder 前序
+     * @param inorder  中序
+     * @return 二叉树根节点
+     */
+    public TreeNode buildTree(int[] preorder, int[] inorder) {
+        return traversal(inorder, preorder);
     }
 
     //1确定参数类别和返回值
@@ -38,7 +50,7 @@ class Solution {
 
         //3确定单层的逻辑
         //找到根节点
-        TreeNode root = new TreeNode(inorder[inorder.length - 1]);
+        TreeNode root = new TreeNode(postorder[0]);
         if (postorder.length == 1) return root;
 
         //切割中序数组
@@ -47,8 +59,16 @@ class Solution {
             if (inorder[index] == root.val)
                 break;
         }
-        int[] inorderLeft = new int[index];
-        Arrays.copyOf(inorderLeft,index);
-return null;
+        int[] inorderLeft = Arrays.copyOfRange(inorder, 0, index);
+        int[] inorderRight = Arrays.copyOfRange(inorder, (index + 1), inorder.length);
+
+        //切割前序数组
+
+        int[] postorderLeft = Arrays.copyOfRange(postorder, 1, inorderLeft.length+1);
+        int[] postorderRight = Arrays.copyOfRange(postorder, inorderLeft.length+1, postorder.length - 1+1);
+
+        root.left = traversal(inorderLeft, postorderLeft);
+        root.right = traversal(inorderRight, postorderRight);
+        return root;
     }
 }
