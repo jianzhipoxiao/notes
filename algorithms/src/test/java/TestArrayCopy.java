@@ -13,7 +13,7 @@ public class TestArrayCopy {
         for (int i = 0; i < 10; i++) {
             ints[i] = i;
         }
-        int[] ints1 = Arrays.copyOf(ints, 5);
+        int[] ints1 = Arrays.copyOfRange(ints, 0,5);
         for (int i = 0; i < ints1.length; i++) {
             System.out.println("ins1: "+ints1[i]);
         }
