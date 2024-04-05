@@ -1,0 +1,78 @@
+<mxfile host="Electron" modified="2024-04-05T13:52:42.456Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.1.0 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="C7Gi3Y82_T1G8DrE7jT1" version="24.1.0" type="device">
+  <diagram name="第 1 页" id="y_2Dpo2EwCTcf1DYu0JN">
+    <mxGraphModel dx="794" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hhaCUlrQXtZZBvsYwc09-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hhaCUlrQXtZZBvsYwc09-1" target="hhaCUlrQXtZZBvsYwc09-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hhaCUlrQXtZZBvsYwc09-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="200" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hhaCUlrQXtZZBvsYwc09-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="245" y="220" as="sourcePoint" />
+            <mxPoint x="325" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hhaCUlrQXtZZBvsYwc09-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hhaCUlrQXtZZBvsYwc09-5" target="hhaCUlrQXtZZBvsYwc09-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hhaCUlrQXtZZBvsYwc09-5" value="OpenAi商品页&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="125" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hhaCUlrQXtZZBvsYwc09-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hhaCUlrQXtZZBvsYwc09-7" target="hhaCUlrQXtZZBvsYwc09-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="220" />
+              <mxPoint x="480" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hhaCUlrQXtZZBvsYwc09-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="hhaCUlrQXtZZBvsYwc09-7" target="hhaCUlrQXtZZBvsYwc09-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hhaCUlrQXtZZBvsYwc09-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hhaCUlrQXtZZBvsYwc09-7" target="hhaCUlrQXtZZBvsYwc09-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hhaCUlrQXtZZBvsYwc09-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hhaCUlrQXtZZBvsYwc09-7" target="hhaCUlrQXtZZBvsYwc09-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hhaCUlrQXtZZBvsYwc09-7" value="&lt;div&gt;Java后端&lt;/div&gt;&lt;div&gt;创建订单&lt;/div&gt;&lt;div&gt;（SaleController）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="325" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hhaCUlrQXtZZBvsYwc09-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="hhaCUlrQXtZZBvsYwc09-9" target="hhaCUlrQXtZZBvsYwc09-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hhaCUlrQXtZZBvsYwc09-9" value="调用支付宝沙箱API&lt;div&gt;生成PayURL&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="580" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hhaCUlrQXtZZBvsYwc09-11" value="保存到数据库" style="whiteSpace=wrap;html=1;verticalAlign=top;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hhaCUlrQXtZZBvsYwc09-15" value="5. 返回PayURL" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hhaCUlrQXtZZBvsYwc09-17" value="4. 保存 订单记录" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="355" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hhaCUlrQXtZZBvsYwc09-19" value="6. 根据PayURL支付完成后回调" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="150" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hhaCUlrQXtZZBvsYwc09-22" value="7. 修改订单支付状态" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hhaCUlrQXtZZBvsYwc09-27" value="1.下单" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="191" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hhaCUlrQXtZZBvsYwc09-28" value="2 .创建支付单" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="460" y="188" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hhaCUlrQXtZZBvsYwc09-32" value="3. 返回PayURL&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
