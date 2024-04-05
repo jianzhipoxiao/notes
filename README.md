@@ -1,5 +1,8 @@
 # notes
+
 小木蕊笔记合集
+
+> 最后一次更新：2024年4月5日
 
 ### 技术积累篇
 
@@ -13,15 +16,17 @@
 
 ### 算法篇
 
+个人算法经验，和一些做过的题解
+
 ##### 题解篇
 
-- [左叶子节点之和](https://github.com/jianzhipoxiao/blob/main/左叶子节点之和.md)
-- [找树左下角的值](https://github.com/jianzhipoxiao/blob/main/找树左下角的值.md)
+- [左叶子节点之和](算法/二叉树/左叶子节点之和.md)
+- [找树左下角的值](算法/二叉树/找树左下角的值.md)
 
 ##### 经验篇
 
-- [拿捏递归之法](https://github.com/jianzhipoxiao/blob/main/拿捏递归之法.md)
-
-- [构建二叉树](https://github.com/jianzhipoxiao/blob/main/构建二叉树.md)
+- [拿捏递归之法](算法/二叉树/拿捏递归之法.md)
+- [同时遍历两颗二叉树](算法/二叉树/同时操作两颗二叉树.md)
+- [构建二叉树](算法/二叉树/构建二叉树.md)
 
   
