@@ -14,6 +14,12 @@
 
 - [Maven初始化之C盘错误](https://github.com/jianzhipoxiao/blob/main/Maven初始化之C盘错误.md)
 
+***
+
+### 项目复用篇
+
+- [SpringBoot打印yml配置日志以便查看启动是否为生产配置](项目复用/SpringBoot启动时打印yml文件配置信息日志.md)
+
 ### 算法篇
 
 个人算法经验，和一些做过的题解
