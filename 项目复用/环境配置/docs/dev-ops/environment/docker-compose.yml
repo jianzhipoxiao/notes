@@ -69,14 +69,14 @@ services:
     environment:
       TZ: Asia/Shanghai
       MYSQL_ROOT_PASSWORD: 123456
-      MYSQL_USER: xfg
+      MYSQL_USER: xmr
       MYSQL_PASSWORD: 123456
     networks:
       - my-network
     depends_on:
       - mysql-job-dbdata
     ports:
-      - "13306:3306"
+      - "3306:3306"
     volumes:
       - ./sql:/docker-entrypoint-initdb.d
     healthcheck:
