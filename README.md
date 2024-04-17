@@ -5,7 +5,7 @@
 
 “小木蕊学习笔记”是我个人的笔记仓库，用于记录我的学习过程和思考。这里收录了我在各种领域的学习笔记，涵盖了算法、项目经验、技术文章等内容。通过这个仓库，我不仅可以系统地整理自己的知识，还可以与他人分享学习心得和经验。欢迎来到我的笔记世界，希望这里的内容能够对您有所启发和帮助！
 
-> 最后一次更新：2024年4月10日
+> 最后一次更新：2024年4月18日
 
 ### 技术积累篇
 
@@ -39,42 +39,6 @@
 - [构建二叉树](算法/二叉树/构建二叉树.md)
 - [二叉搜索树特征](算法/二叉树/二叉搜索树.md)
   
-=======
-# note
+#### 八股文
+- [MySQL](面试/openai/mysql八股文.md)
 
-#### 介绍
-小木蕊学习笔记，包含算法， 项目，文章等
-
-#### 软件架构
-软件架构说明
-
-
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
->>>>>>> c85734d (Initial commit)
