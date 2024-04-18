@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # notes
 
 小木蕊笔记合集
@@ -41,4 +42,5 @@
   
 #### 八股文
 - [MySQL](面试/openai/mysql八股文.md)
+
 
