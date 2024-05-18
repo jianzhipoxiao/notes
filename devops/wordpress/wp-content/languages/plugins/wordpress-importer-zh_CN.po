@@ -1,0 +1,215 @@
+# Translation of Plugins - WordPress Importer - Stable (latest release) in Chinese (China)
+# This file is distributed under the same license as the Plugins - WordPress Importer - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-05-20 13:37:53+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.0-beta.2\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Plugins - WordPress Importer - Stable (latest release)\n"
+
+#: class-wp-import.php:242
+msgid "To make it simpler for you to edit and save the imported content, you may want to reassign the author of the imported item to an existing user of this site, such as your primary administrator account."
+msgstr "如果您想编辑和保存导入的内容比较简单，您可能需要重新分配的进口项目的作者对这个站点的现有用户，如您的主管理员帐户。"
+
+#: class-wp-import.php:1137
+msgid "Downloaded file has incorrect size"
+msgstr "下载的文件大小不正确"
+
+#: class-wp-import.php:1190
+msgid "The uploaded file could not be moved"
+msgstr "上传的文件无法移动"
+
+#: class-wp-import.php:1175
+msgid "Sorry, this file type is not permitted for security reasons."
+msgstr "抱歉，出于安全原因，不允许使用此文件类型。"
+
+#. translators: 1: The WordPress error message. 2: The WordPress error code.
+#: class-wp-import.php:1097
+msgid "Request failed due to an error: %1$s (%2$s)"
+msgstr "由于错误导致请求失败: %1$s (%2$s)"
+
+#: class-wp-import.php:1075
+msgid "Could not create temporary file."
+msgstr "无法创建临时文件。"
+
+#. translators: 1: The HTTP error message. 2: The HTTP error code.
+#: class-wp-import.php:1113
+msgid "Remote server returned the following unexpected result: %1$s (%2$s)"
+msgstr "远程服务器返回以下意外结果：%1$s (%2$s)"
+
+#. Author of the plugin
+msgid "wordpressdotorg"
+msgstr "wordpressdotorg"
+
+#: class-wp-import.php:241
+msgid "Assign Authors"
+msgstr "指定作者"
+
+#: class-wp-import.php:261
+msgid "Submit"
+msgstr "提交"
+
+#: class-wp-import.php:1335
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr "选择一个 WXR（.xml）文件，然后点击上传进行导入。"
+
+#: parsers/class-wxr-parser-simplexml.php:33
+#: parsers/class-wxr-parser-simplexml.php:41 parsers/class-wxr-parser.php:45
+msgid "There was an error when reading this WXR file"
+msgstr "读取该 WXR 文件时出现错误"
+
+#: parsers/class-wxr-parser.php:46
+msgid "Details are shown above. The importer will now try again with a different parser..."
+msgstr "以上为详细内容。导入工具现在将尝试使用不同的解析方式……"
+
+#: parsers/class-wxr-parser-regex.php:102
+#: parsers/class-wxr-parser-simplexml.php:46
+#: parsers/class-wxr-parser-simplexml.php:52
+#: parsers/class-wxr-parser-xml.php:107
+msgid "This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr "没有找到 WXR 文件，WXR 的版本号缺失或无效"
+
+#: class-wp-import.php:108
+msgid "The file does not exist, please try again."
+msgstr "该文件不存在，请重试。"
+
+#: class-wp-import.php:152
+msgid "Remember to update the passwords and roles of imported users."
+msgstr "请记住需要更新已导入用户的密码和权限。"
+
+#: class-wp-import.php:188
+msgid "This WXR file (version %s) may not be supported by this version of the importer. Please consider updating."
+msgstr "该版本的导入工具不支持该 WXR 文件（版本 %s）。请考虑将其更新。"
+
+#: class-wp-import.php:213
+msgid "Failed to import author %s. Their posts will be attributed to the current user."
+msgstr "导入作者 %s 失败。他们的日志将被分配到当前用户。"
+
+#: class-wp-import.php:244
+msgid "If a new user is created by WordPress, a new password will be randomly generated and the new user&#8217;s role will be set as %s. Manually changing the new user&#8217;s details will be necessary."
+msgstr "如果在 WordPress 中创建一个新用户，会随机生成一个用户密码并将权限设置为 %s。如果必要的话，请手动更改用户信息。"
+
+#: class-wp-import.php:290
+msgid "or create new user with login name:"
+msgstr "或创建一位新用户，登录名为："
+
+#: class-wp-import.php:293
+msgid "as a new user:"
+msgstr "做为一位新用户："
+
+#: class-wp-import.php:303
+msgid "assign posts to an existing user:"
+msgstr "分配日志现有用户："
+
+#: class-wp-import.php:305
+msgid "or assign posts to an existing user:"
+msgstr "或将日志分配给现有用户："
+
+#: class-wp-import.php:373
+msgid "Failed to create new user for %s. Their posts will be attributed to the current user."
+msgstr "创建新用户 %s 失败。他们的日志将被分配到当前用户。"
+
+#: class-wp-import.php:432
+msgid "Failed to import category %s"
+msgstr "导入分类 %s 失败"
+
+#: class-wp-import.php:483
+msgid "Failed to import post tag %s"
+msgstr "导入日志标签 %s 失败"
+
+#: class-wp-import.php:939
+msgid "Menu item skipped due to missing menu slug"
+msgstr "由于未找到菜单缩略名，菜单条目已被跳过"
+
+#: class-wp-import.php:946
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr "由于菜单缩略名无效，菜单条目已被跳过：%s"
+
+#: class-wp-import.php:1013
+msgid "Fetching attachments is not enabled"
+msgstr "检测到附件未被启用"
+
+#: class-wp-import.php:1132
+msgid "Zero size file downloaded"
+msgstr "0 字节文件已下载"
+
+#: class-wp-import.php:1319
+msgid "A new version of this importer is available. Please update to version %s to ensure compatibility with newer export files."
+msgstr "该导入工具有新版本可用。请更新到版本 %s 来确保兼容较新的导出文件。"
+
+#. Description of the plugin
+msgid "Import posts, pages, comments, custom fields, categories, tags and more from a WordPress export file."
+msgstr "从 WordPress 导出文件中导入日志、页面、评论、自定义字段、分类、标签或更多内容。"
+
+#: class-wp-import.php:1312
+msgid "Import WordPress"
+msgstr "导入 WordPress"
+
+#: class-wp-import.php:275
+msgid "Import author:"
+msgstr "导入作者："
+
+#: class-wp-import.php:254
+msgid "Import Attachments"
+msgstr "导入附件"
+
+#: class-wp-import.php:257
+msgid "Download and import file attachments"
+msgstr "下载并导入文件附件"
+
+#: class-wp-import.php:314
+msgid "- Select -"
+msgstr "- 选择 -"
+
+#: class-wp-import.php:151
+msgid "All done."
+msgstr "导入完毕。"
+
+#: class-wp-import.php:151
+msgid "Have fun!"
+msgstr "好好享受吧！"
+
+#: class-wp-import.php:1031
+msgid "Invalid file type"
+msgstr "无效的文件类型"
+
+#: class-wp-import.php:1125
+msgid "Remote server did not respond"
+msgstr "远程服务器无响应"
+
+#: class-wp-import.php:1143
+msgid "Remote file is too large, limit is %s"
+msgstr "远程文件太大了，限制为 %s"
+
+#: class-wp-import.php:107 class-wp-import.php:116 class-wp-import.php:167
+#: class-wp-import.php:171 class-wp-import.php:180
+msgid "Sorry, there has been an error."
+msgstr "抱歉，有错误发生。"
+
+#: wordpress-importer.php:63
+msgid "Import <strong>posts, pages, comments, custom fields, categories, and tags</strong> from a WordPress export file."
+msgstr "从 WordPress 导出文件中导入<strong>日志、页面、评论、自定义字段、分类与标签</strong>。"
+
+#. Plugin Name of the plugin
+msgid "WordPress Importer"
+msgstr "WordPress 导入工具"
+
+#: class-wp-import.php:1334
+msgid "Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import the posts, pages, comments, custom fields, categories, and tags into this site."
+msgstr "您好！请选择您要导入的 WordPress eXtended RSS (WXR) 文件，我们将把其中的日志、页面、评论、自定义字段、分类及标签导入到您的站点中。"
+
+#. Author URI of the plugin
+msgid "https://wordpress.org/"
+msgstr "https://cn.wordpress.org/"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/wordpress-importer/"
+msgstr "https://cn.wordpress.org/plugins/wordpress-importer/"
+
+#: class-wp-import.php:172
+msgid "The export file could not be found at <code>%s</code>. It is likely that this was caused by a permissions problem."
+msgstr "在<code>%s</code>找不到导出文件。这很可能是由权限问题造成的。"
