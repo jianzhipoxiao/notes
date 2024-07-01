@@ -1,1 +1,0 @@
-npx conventional-changelog -p angular -i CHANGELOG.md -s -u -r 1
