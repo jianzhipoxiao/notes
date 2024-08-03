@@ -27,7 +27,7 @@ services:
     environment:
       WORDPRESS_DB_HOST: db
       WORDPRESS_DB_USER: root
-      WORDPRESS_DB_PASSWORD: 123456
+      WORDPRESS_DB_PASSWORD: Liulove02
       WORDPRESS_DB_NAME: xiaomurui
     volumes:
       - ./wordpress:/var/www/html
@@ -42,11 +42,11 @@ services:
     restart: always
     environment:
       TZ: Asia/Shanghai
-      MYSQL_ROOT_PASSWORD: 123456
+      MYSQL_ROOT_PASSWORD: Liulove02
     networks:
       - my-network
     ports:
-      - "23306:3306"
+      - "13306:3306"
     volumes:
       - ./mysql/sql:/docker-entrypoint-initdb.d
     healthcheck:

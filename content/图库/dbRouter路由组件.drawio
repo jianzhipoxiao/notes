@@ -1,0 +1,74 @@
+<mxfile host="Electron" modified="2024-08-02T14:27:50.442Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.1.0 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="g3p7_lQl-Wyy99AFEc9U" version="24.1.0" type="device">
+  <diagram name="路由组件执行流程" id="THugZDS3ISGzJvOdykeU">
+    <mxGraphModel dx="1434" dy="836" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Lx_Sy1JBnLd5ePl9bLAo-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Lx_Sy1JBnLd5ePl9bLAo-1" target="Lx_Sy1JBnLd5ePl9bLAo-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lx_Sy1JBnLd5ePl9bLAo-1" value="yml文件配置" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="148" y="37" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lx_Sy1JBnLd5ePl9bLAo-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Lx_Sy1JBnLd5ePl9bLAo-2" target="Lx_Sy1JBnLd5ePl9bLAo-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lx_Sy1JBnLd5ePl9bLAo-2" value="DataSourceAutoConfig 类&lt;div&gt;void setEnvironment()方法&lt;br&gt;&lt;/div&gt;&lt;div&gt;获取yml配置&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="350" y="38" width="166" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="Lx_Sy1JBnLd5ePl9bLAo-4" value="该方法读取yml中配置好的分库分表参数，并存放到dataSourceMap 中" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="336" y="3" width="207" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Lx_Sy1JBnLd5ePl9bLAo-12" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="561" y="37" width="364" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="Lx_Sy1JBnLd5ePl9bLAo-5" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="Lx_Sy1JBnLd5ePl9bLAo-12" vertex="1">
+          <mxGeometry x="20" width="184" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="Lx_Sy1JBnLd5ePl9bLAo-9" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;DataSourceAutoConfig 类&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;DataSource dataSource()方法&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;创建数据源&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Lx_Sy1JBnLd5ePl9bLAo-12" vertex="1">
+          <mxGeometry y="19" width="222" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Lx_Sy1JBnLd5ePl9bLAo-19" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=entityRelationEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Lx_Sy1JBnLd5ePl9bLAo-16" target="Lx_Sy1JBnLd5ePl9bLAo-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lx_Sy1JBnLd5ePl9bLAo-16" value="DBRouterConfig类&lt;div&gt;设置分库数和分表数&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;glass=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="492" y="132" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lx_Sy1JBnLd5ePl9bLAo-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.998;entryY=0.443;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" parent="1" source="Lx_Sy1JBnLd5ePl9bLAo-5" target="Lx_Sy1JBnLd5ePl9bLAo-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="692" y="148" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lx_Sy1JBnLd5ePl9bLAo-20" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="687" y="117" width="282" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="Lx_Sy1JBnLd5ePl9bLAo-7" value="根据配置创建数据源，每个数据源包含（url、username、password）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Lx_Sy1JBnLd5ePl9bLAo-20" vertex="1">
+          <mxGeometry y="36" width="275" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Lx_Sy1JBnLd5ePl9bLAo-13" value="数据源入口参数 Map ,key - 数据源名称 ，value = DriverManagerDataSource【驱动类】" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Lx_Sy1JBnLd5ePl9bLAo-20" vertex="1">
+          <mxGeometry x="9" width="273" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Lx_Sy1JBnLd5ePl9bLAo-24" value="String getAttrValue()&lt;div&gt;获取分库分表键值&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="205" y="253" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lx_Sy1JBnLd5ePl9bLAo-25" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="193" y="148" width="224" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="Lx_Sy1JBnLd5ePl9bLAo-18" value="" style="whiteSpace=wrap;html=1;rounded=1;glass=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="Lx_Sy1JBnLd5ePl9bLAo-25" vertex="1">
+          <mxGeometry x="-63" width="287" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="Lx_Sy1JBnLd5ePl9bLAo-23" value="DBRouterJoinPoint类&lt;br&gt;&lt;div&gt;切面拦截，拦截带有@DBrouter注解的方法：&lt;span style=&quot;background-color: initial;&quot;&gt;1.路由计算、2 扰动函数、3.缓存到ThreadLocal&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Lx_Sy1JBnLd5ePl9bLAo-25" vertex="1">
+          <mxGeometry x="-57" y="15.5" width="281" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Lx_Sy1JBnLd5ePl9bLAo-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.625;exitY=1.046;exitDx=0;exitDy=0;entryX=0.874;entryY=0.011;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" parent="1" source="Lx_Sy1JBnLd5ePl9bLAo-18" target="Lx_Sy1JBnLd5ePl9bLAo-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Lx_Sy1JBnLd5ePl9bLAo-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" parent="1" source="Lx_Sy1JBnLd5ePl9bLAo-24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="234" y="213" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

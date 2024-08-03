@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2024-06-03T01:29:46.823Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.1.0 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="ntAbtjDfo97TIiwjJNfZ" version="24.1.0" type="device" pages="3">
+<mxfile host="Electron" modified="2024-08-03T05:03:22.638Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.1.0 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="uBQC4Qef1siv7QTVCcFB" version="24.1.0" type="device" pages="4">
   <diagram name="对象生成过程" id="xWfOUb51_k2QQbH3SVzV">
     <mxGraphModel dx="794" dy="557" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -120,7 +120,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="cP2SlIDkU7Rx0_IhB1Zt" name="并发安全保证">
-    <mxGraphModel dx="794" dy="557" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="765" dy="536" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -167,47 +167,64 @@
     </mxGraphModel>
   </diagram>
   <diagram id="H8NloWnuEovy57A8TRyl" name="Object结构">
-    <mxGraphModel dx="1434" dy="836" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="794" dy="557" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="80knBNHgeRMK6sO89MiG-1" value="&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 18px;&quot;&gt;Object 对象&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="80knBNHgeRMK6sO89MiG-1" value="&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 18px;&quot;&gt;Object 对象&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="298" y="89" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="80knBNHgeRMK6sO89MiG-3" value="Object" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="80knBNHgeRMK6sO89MiG-3" value="Object" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="308" y="152" width="177" height="268" as="geometry">
             <mxRectangle x="304" y="204" width="54" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="80knBNHgeRMK6sO89MiG-4" value="1. 对象运行数据如：&lt;span style=&quot;background-color: initial;&quot;&gt;如哈希码(HashCode)、GC分代年龄、锁状态标志、线程持有的锁、偏向线程ID、偏向时&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;间戳等&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="80knBNHgeRMK6sO89MiG-3">
+        <mxCell id="80knBNHgeRMK6sO89MiG-4" value="1. 对象运行数据如：&lt;span style=&quot;background-color: initial;&quot;&gt;如哈希码(HashCode)、GC分代年龄、锁状态标志、线程持有的锁、偏向线程ID、偏向时&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;间戳等&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="80knBNHgeRMK6sO89MiG-3" vertex="1">
           <mxGeometry y="30" width="177" height="74" as="geometry" />
         </mxCell>
-        <mxCell id="80knBNHgeRMK6sO89MiG-14" value="&lt;div&gt;2. 类型指针&lt;/div&gt;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="80knBNHgeRMK6sO89MiG-3">
+        <mxCell id="80knBNHgeRMK6sO89MiG-14" value="&lt;div&gt;2. 类型指针&lt;/div&gt;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="80knBNHgeRMK6sO89MiG-3" vertex="1">
           <mxGeometry y="104" width="177" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="80knBNHgeRMK6sO89MiG-5" value="&lt;div&gt;实例数据部分是对象真正存储的有效信息，也是在程序代码中所定义的各种&lt;span style=&quot;background-color: initial;&quot;&gt;类型的字段内容。无论是从父类继承下来的，还是在子类中定义的，都需要记录起来&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="80knBNHgeRMK6sO89MiG-3">
+        <mxCell id="80knBNHgeRMK6sO89MiG-5" value="&lt;div&gt;实例数据部分是对象真正存储的有效信息，也是在程序代码中所定义的各种&lt;span style=&quot;background-color: initial;&quot;&gt;类型的字段内容。无论是从父类继承下来的，还是在子类中定义的，都需要记录起来&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="80knBNHgeRMK6sO89MiG-3" vertex="1">
           <mxGeometry y="139" width="177" height="99" as="geometry" />
         </mxCell>
-        <mxCell id="80knBNHgeRMK6sO89MiG-8" value="对齐地址为8个字节的整数倍" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="80knBNHgeRMK6sO89MiG-3">
+        <mxCell id="80knBNHgeRMK6sO89MiG-8" value="对齐地址为8个字节的整数倍" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="80knBNHgeRMK6sO89MiG-3" vertex="1">
           <mxGeometry y="238" width="177" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="80knBNHgeRMK6sO89MiG-11" value="对象头（Mark Word）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="80knBNHgeRMK6sO89MiG-11" value="对象头（Mark Word）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="146" y="217" width="132" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="80knBNHgeRMK6sO89MiG-15" value="实例数据" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="80knBNHgeRMK6sO89MiG-15" value="实例数据" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="208" y="337" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="80knBNHgeRMK6sO89MiG-17" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="80knBNHgeRMK6sO89MiG-17" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="278" y="175" width="20" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="80knBNHgeRMK6sO89MiG-19" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;size=0.4;" vertex="1" parent="1">
+        <mxCell id="80knBNHgeRMK6sO89MiG-19" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;size=0.4;" parent="1" vertex="1">
           <mxGeometry x="278" y="307" width="20" height="82" as="geometry" />
         </mxCell>
-        <mxCell id="ffevOfg-Y8okYVWuod34-1" value="对象填充" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ffevOfg-Y8okYVWuod34-1" value="对象填充" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="198" y="395" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ffevOfg-Y8okYVWuod34-2" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;size=0.5;" vertex="1" parent="1">
+        <mxCell id="ffevOfg-Y8okYVWuod34-2" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;size=0.5;" parent="1" vertex="1">
           <mxGeometry x="273" y="395" width="20" height="36" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Ss0_ae7dUR5JW3Vlj0E3" name="类加载">
+    <mxGraphModel dx="588" dy="413" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XrtLWQhVpFxf912eNdsG-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XrtLWQhVpFxf912eNdsG-1" target="XrtLWQhVpFxf912eNdsG-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XrtLWQhVpFxf912eNdsG-1" value="加载" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XrtLWQhVpFxf912eNdsG-2" value="验证" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="260" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
