@@ -1,18 +1,17 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 # notes
 
 小木蕊笔记合集
 
 “小木蕊学习笔记”是我个人的笔记仓库，用于记录我的学习过程和思考。这里收录了我在各种领域的学习笔记，涵盖了算法、项目经验、技术文章等内容。通过这个仓库，我不仅可以系统地整理自己的知识，还可以与他人分享学习心得和经验。欢迎来到我的笔记世界，希望这里的内容能够对您有所启发和帮助！
 
-> 最后一次更新：2024年4月18日
+> 最后一次更新：2024年9月5日
 
 ### 一.技术积累篇
 
-- [Spring定时任务解决方案`@Scheduled`](https://github.com/jianzhipoxiao/blob/main/Spring定时任务解决方案`%40Scheduled`.md)
-- [Mybaties-parameterType（参数类型）、resultMap（结果映射)和resultType（结果类型）区别与联系](https://github.com/jianzhipoxiao/notes/blob/main/Mybaties-parameterType%E3%80%81resultMap%E5%92%8CresultType%E5%8C%BA%E5%88%AB%E4%B8%8E%E8%81%94%E7%B3%BB.md)
-- [线程池](https://github.com/jianzhipoxiao/blob/main/线程池.md)
+- [aop-ratelimiter-限流](content/技术积累/Aop 笔记.md)
+- [HashMap 原理](content/技术积累/HashMap 原理笔记.md)
+- [JVM 快速入门](content/技术积累/JVM 笔记总结.md)
+- [Redisson 入门](Redisson 和普通的Redis客户端又什么不同.md)
 
 ### 二.Bug修正篇
 
@@ -41,12 +40,11 @@
 ##### 4.2 经验篇
 
 - [01背包总结](content/算法/DP动态规划/01背包算法总结.md)
-
 - [完全背包总结](content/算法/DP动态规划/完全背包问题.md)
+- [滑动窗口](content/算法/滑动窗口笔记.md)
+- [单调栈](content/算法/单调栈.md)
 
 ### 五. 场景解决方案
-
-创建的解决方案
 
 - [海量数据去重](content/面试/场景题目/海量数据去重解决方案.md)
 - [redis分段锁加锁库存](content/项目复用/场景/Redis分段锁+延时队列+MQ消息解决库存超卖问题并减轻数据库压力方案.md)
