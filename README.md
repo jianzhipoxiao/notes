@@ -8,9 +8,9 @@
 
 ### 一.技术积累篇
 
-- [aop-ratelimiter-限流](content/技术积累/Aop 笔记.md)
-- [HashMap 原理](content/技术积累/HashMap 原理笔记.md)
-- [JVM 快速入门](content/技术积累/JVM 笔记总结.md)
+- [aop-ratelimiter-限流](content/技术积累/Aop笔记)
+- [HashMap 原理](content/技术积累/HashMap原理笔记)
+- [JVM 快速入门](content/技术积累/JVM笔记总结)
 - [Redisson 入门](Redisson 和普通的Redis客户端又什么不同.md)
 
 ### 二.Bug修正篇
